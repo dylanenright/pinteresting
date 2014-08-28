@@ -1,7 +1,15 @@
-$body-bg:       #34495e;
-$navbar-default-bg: #2c3e50;
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+$body-bg:       			#34495e;
+$navbar-default-bg: 		#2c3e50;
 $navbar-default-link-color: white;
-$brand-primary: #e67e22;
-$jumbotron-bg: #1abc9c;
+$brand-primary: 			#e67e22;
+$jumbotron-bg: 				#1abc9c;
+$navbar-height: 			45px;
+$font-family-sans-serif:	'raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
